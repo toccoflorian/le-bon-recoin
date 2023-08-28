@@ -1,0 +1,35 @@
+body {
+    background: url('../images/street-grafity3.jpg') center/cover no-repeat;
+}
+
+.header-container {
+    height: 5rem;
+    /* background-color: gray; */
+    background: linear-gradient(to right, #605335, #A97F43, #2D333C);
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content {
+    height: calc(100% - 5rem);
+    padding-top: 2rem;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+label {
+    color: white;
+}
+
+p {
+    color: white;
+    opacity: 1;
+}

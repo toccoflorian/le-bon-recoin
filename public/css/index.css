@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Smasher';
+    src: url('../fonts/Next\ Custom.ttf');
+}
+
+@font-face {
+    font-family: 'Mars';
+    src: url('../fonts/MARSNEVENEKSK-Regular.otf');
+}
+
+:root {
+    background: url('../images/street\ grafity.jpg') center/cover no-repeat;
+}
+
+body {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.content {
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    background-color: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+    position: absolute;
+    color: white;
+    margin: 1.5rem 2.5rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    font-family: 'Smasher';
+    letter-spacing: 20px;
+    border-top: 3px solid #DA3119;
+    border-bottom: 3px solid #4F5A14;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.icon {
+    background-color: rgba(211, 211, 211, 0.63);
+    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    font-family: 'Mars';
+    letter-spacing: .5rem;
+}
